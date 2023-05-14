@@ -1,0 +1,159 @@
+#content
+{
+    background-image: url('portfolio_background.png');
+    background-repeat: no-repeat;
+    background-size: 1500px 745px;
+    width: 1500px;
+    height: 745px;
+    min-width: 1400px;
+
+}
+body
+{ 
+    background-color: rgb(38, 37, 37);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#welcome
+{
+    position: absolute;
+    font-size: 4em;
+    top: 110px;
+    left: 150px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background: linear-gradient(90deg, rgb(38, 37, 37), rgba(255, 255, 255, 0.46), rgb(38, 37, 37));
+    letter-spacing: 10px;
+    color: rgba(255, 255, 255, 0.46);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 10s linear infinite;
+}
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+#bio
+{
+    border-left: 3px solid rgba(255, 204, 0, 0.45);
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+    font-size: 1.1em;
+    width: 810px;
+}
+span
+{
+    color: rgba(255, 212, 42, 0.46);
+}
+
+#reach
+{
+    position: absolute;
+    top: 460px;
+    left: 150px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 1.4em;
+    width: 350px;
+}
+#reach_links
+{
+    position: absolute;
+    top: 480px;
+    left: 180px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    width: 400px;
+}
+#reach_links a:link, a:active, a:visited
+{
+    color: rgba(255, 212, 42, 0.46);
+}
+#reach_links a:hover
+{
+    color: white;
+}
+#projects_tab
+{
+    width: fit-content;
+    position: absolute;
+    top: 310px;
+    left: 1080px;
+
+}
+#title
+{
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+#list
+{
+    border-left: 6px solid rgba(255, 204, 0, 0.45);
+    border-top: 6px solid rgba(255, 204, 0, 0.45);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.46);
+    padding-left: 10px;
+}
+#list a
+{
+    color: rgba(255, 212, 42, 0.46); 
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 204, 0, 0.45);
+}
+#pfp
+{
+    border-radius: 50%;
+    border: 10px solid rgba(255, 204, 0, 0.6);
+    position: absolute;
+    top: 120px;
+    left: 1150px;
+}
+#github
+{
+    height :30px ;
+    width : 30px ;
+    margin-right: 5px;
+}
+#gmail
+{
+    height :20px ;
+    width : 30px ;
+    margin-right: 5px;
+}
+#phone
+{
+    height :30px ;
+    width : 30px ;
+    margin-right: 5px;
+}
+#cv
+{
+    height :28px ;
+    width : 32px ;
+    margin-right: 5px;
+}
