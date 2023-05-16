@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="welcome.js"></script>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="icon" type="image/x-icon" href="minesweeperico.png">
+</head>
+<body>
+    <div id="title">MINESWEEPER</div>
+    <div id="content">
+        <p><h1>Welcome fellow!</h1></p>
+        <br>
+        <label for="username_log" style="font-size: x-large;">Give yourself a nickname and hop in!</label>
+        <br><br>
+        <input type="text" id="username_log" maxlength="10">
+        <br><br>
+        <div id="result"></div>
+        <div id="counter" style="font-size: 20;"></div>
+        <br>
+        <button id="log-in">Enter</button>
+        <button id="tutorial">Tutorial</button>
+        <div id="tutorial_tab">
+            <h1 style="text-align: center;">How to play the game</h1>
+            <div>
+                Before you could play the game You must enter a username that way the game can store you records so the data won't get lost after closing the browser.<br>Please keep in mind that the data is stored locally so switching browsers won't transfer the data! <br><br>
+                After entering into the game You can see a timer which obviously measuring the time you spend finishing the game. <br>
+                The button with a little flag icon is an indicator whether the flag is enabled or not. It only works when the game started. <br>
+                The restart button cancels the current session and reset the timer too. <br><br>
+                You can choose from 3 difficulties: <br> Easy (8 X 8) 10 mines <br> Medium (14 X 14) 30 mines <br> Hard (20 X 20) 40 mines <br>
+                Once you choose the difficulty the game starts instantly!
+                <br><br>
+                The records button shows You the last game a player won, and the best game since the last delete. <br>
+                If you press the button again the tab will close.
+                <br><br>
+                Have fun and wish You much luck playing with this game!
+            </div>
+            <button id="close_tab">Ok</button>
+        </div>
+    </div>
+</body>
+</html>
