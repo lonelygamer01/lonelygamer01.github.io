@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="index.css">
-    <script>
-        window.onload(
-
-        );
-    </script>
 </head>
 <body>
     <div id="content">
@@ -19,24 +14,34 @@
         <div id="bio">
             My name is Daniel Szabo, I'm a beginner but enthusiastic software developer living in Hungary <br>
             who is open to the new technologies. I got into programming when <br>
-            I was 15, as a teenager i used many apps and the web so i decided to dig into them <br>
+            I was 17, as a teenager i used many apps and the web so i decided to dig into them <br>
             and learn how they work. <br>
-            I have experience in basic <span>web development</span> HTML, CSS, JavaScript, PHP. <br>
-            <span>Databases:</span> SQL, XML, JSON, MongoDB. <br>
-            <span>Backend:</span> Python, C# <br>
-            <span>Mobile development:</span> Flutter, React <br>
+            I have basic knowledge in <span class="yellow_text">web development</span> HTML, CSS, JavaScript, PHP. <br>
+            <span class="yellow_text">Databases:</span> SQL, XML, JSON, MongoDB. <br>
+            <span class="yellow_text">Backend:</span> Python, C# <br>
+            <span class="yellow_text">Mobile development:</span> Flutter, React <br>
             I'm passionate about working on mobile & desktop applications. <br>
             I love to play chess and videogames where i need to use more my brain but I don't <br>
             despise a good book with a glass of whiskey at the end of the week.<br>
+        </div>
+        <div id="lang_selector">
+            <div  id="hun" style="margin-right: 10px; color: rgba(255, 255, 255, 0.46); margin-top: auto; margin-bottom: auto;">HUN
+            </div>
+            <label class="switch">
+                <input id="check" type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+            <div id="eng" style="margin-left: 10px; color: rgba(255, 212, 42, 0.46); margin-top: auto; margin-bottom: auto;" >ENG
+            </div>
         </div>
         <div id="reach">
             Where You can reach me:
         </div>
         <div id="reach_links">
-            <p> <img src="github.png" id="github"> Most of my project's code is up on <span>GitHub</span></p>
-            <p> <img src="gmail.png" id="gmail"> <span>emailfordeveloperz@gmail.com</span></p>
-            <p> <img src="phone.png" id="phone"> <span>06/20/919/0095</span></p>
-            <p> <img src="cv.png" id="cv"> My <a href="#" target="_blank">reusme/CV</a></p>
+            <p> <img src="github.png" id="github"> Most of my project's code is up on <span><a href="https://github.com/lonelygamer01?tab=repositories" target="_blank">GitHub</a></span></p>
+            <p> <img src="gmail.png" id="gmail"> <span class="yellow_text">szada.hu@gmail.com</span></p>
+            <p> <img src="phone.png" id="phone"> <span class="yellow_text">06/20/919/0095</span></p>
+            <p> <img src="cv.png" id="cv"> My <a href="" target="_blank">reusme/CV</a></p>
         </div>
         <img src="pfp.jpg" id="pfp">
         <div id="projects_tab">
@@ -44,13 +49,14 @@
             <div id="list">
                 <br>
                 <a href="welcome.html" target="_blank">Minesweeper game</a><br><br>
-                <a href="#" target="_blank">Webshop demo</a><br><br>
-                <a href="#" target="_blank">Landing page</a><br><br>
-                <a href="#" target="_blank">Workout tracker</a><br><br>
-                <a href="#" target="_blank">Chat app demo</a><br><br>
-                <a href="#" target="_blank">more...</a>
+                <a href="webshop_demo_design.html" target="_blank">Webshop demo</a><br><br>
+                <a>Landing page</a><br><br>
+                <a>Workout tracker</a><br><br>
+                <a>Chat app demo</a><br><br>
+                <a>more...</a><br><br>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
