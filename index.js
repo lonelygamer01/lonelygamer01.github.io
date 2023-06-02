@@ -24,7 +24,7 @@ document.getElementById("check").addEventListener("click", function() {
         <p> <img src="github.png" id="github"> Most of my project's code is up on <span><a href="https://github.com/lonelygamer01?tab=repositories" target="_blank">GitHub</a></span></p>
         <p> <img src="gmail.png" id="gmail"> <span class="yellow_text">szada.hu@gmail.com</span></p>
         <p> <img src="phone.png" id="phone"> <span class="yellow_text">06/20/919/0095</span></p>
-        <p> <img src="cv.png" id="cv"> My <a href="#" target="_blank">reusme/CV</a></p>
+        <p> <img src="cv.png" id="cv"> My <a href="Oneletrajz.pdf" target="_blank">reusme/CV</a></p>
         `;
         document.getElementById("title").innerText = "Projects";
         document.getElementsByTagName("a")[7].innerText = "more...";
@@ -53,7 +53,7 @@ document.getElementById("check").addEventListener("click", function() {
         <p> <img src="github.png" id="github"> Projektjeim kódját megtalálhatod a <span><a href="https://github.com/lonelygamer01?tab=repositories" target="_blank">GitHubon</a></span></p>
         <p> <img src="gmail.png" id="gmail"> <span class="yellow_text">szada.hu@gmail.com</span></p>
         <p> <img src="phone.png" id="phone"> <span class="yellow_text">06/20/919/0095</span></p>
-        <p> <img src="cv.png" id="cv"> <a href="#" target="_blank">Önéletrajzom</a></p>
+        <p> <img src="cv.png" id="cv"> <a href="Oneletrajz.pdf" target="_blank">Önéletrajzom</a></p>
         `;
         document.getElementById("title").innerText = "Projektek";
         document.getElementsByTagName("a")[7].innerText = "több...";
