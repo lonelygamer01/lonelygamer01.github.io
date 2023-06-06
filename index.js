@@ -13,7 +13,7 @@ document.getElementById("check").addEventListener("click", function() {
         I have knowledge in <span class="yellow_text">web development</span> HTML, CSS, JavaScript. <br>
         <span class="yellow_text">Databases:</span> SQL, XML, JSON, MongoDB. <br>
         <span class="yellow_text">Backend:</span> Python, C#, C++ <br>
-        <span class="yellow_text">Mobile development:</span> Flutter, React <br>
+        <span class="yellow_text">Mobile development:</span> Flutter<br>
         I'm passionate about working on mobile & desktop applications. <br>
         I love to play chess and videogames where i need to use more my brain but I don't <br>
         despise a good book at the end of the day.<br>
@@ -42,7 +42,7 @@ document.getElementById("check").addEventListener("click", function() {
         Van tapasztalatom az alap <span class="yellow_text">web fejlesztésben</span> HTML, CSS, JavaScript. <br>
         <span class="yellow_text">Adatbázis:</span> SQL, XML, JSON, MongoDB. <br>
         <span class="yellow_text">Backend:</span> Python, C#, C++ <br>
-        <span class="yellow_text">Mobil fejlesztés:</span> Flutter, React <br>
+        <span class="yellow_text">Mobil fejlesztés:</span> Flutter <br>
         Szivesen dolgoznék mobil és asztali alkalmazásokon. <br>
         Imádok sakkozni és az olyan videojátékokat, ahol többet kell használnom az agyamat, de szivesen <br>
         veszek a kezembe egy jó könyvet a nap végén.<br>
