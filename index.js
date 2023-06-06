@@ -10,13 +10,13 @@ document.getElementById("check").addEventListener("click", function() {
         who is open to the new technologies. I got into programming when <br>
         I was 17, as a teenager i used many apps and the web so i decided to dig into them <br>
         and learn how they work. <br>
-        I have knowledge in <span class="yellow_text">web development</span> HTML, CSS, JavaScript, PHP. <br>
+        I have knowledge in <span class="yellow_text">web development</span> HTML, CSS, JavaScript. <br>
         <span class="yellow_text">Databases:</span> SQL, XML, JSON, MongoDB. <br>
-        <span class="yellow_text">Backend:</span> Python, C# <br>
+        <span class="yellow_text">Backend:</span> Python, C#, C++ <br>
         <span class="yellow_text">Mobile development:</span> Flutter, React <br>
         I'm passionate about working on mobile & desktop applications. <br>
         I love to play chess and videogames where i need to use more my brain but I don't <br>
-        despise a good book with a glass of whiskey at the end of the week.<br>
+        despise a good book at the end of the day.<br>
         `;
         document.getElementById("reach").innerHTML = "Where You can reach me:";
         document.getElementById("reach_links").innerHTML = 
@@ -39,13 +39,13 @@ document.getElementById("check").addEventListener("click", function() {
         aki nyitott az új technológiákra. Akkor kezdett el érdekelni a programozás, mikor <br>
         17 éves voltam, tinédzserként sok alkalmazást és az internetet használtam, ezért úgy döntöttem, hogy beleásom magam ezekbe <br>
         és megtanulják, hogyan működnek. <br>
-        Van tapasztalatom az alap <span class="yellow_text">web fejlesztésben</span> HTML, CSS, JavaScript, PHP. <br>
+        Van tapasztalatom az alap <span class="yellow_text">web fejlesztésben</span> HTML, CSS, JavaScript. <br>
         <span class="yellow_text">Adatbázis:</span> SQL, XML, JSON, MongoDB. <br>
-        <span class="yellow_text">Backend:</span> Python, C# <br>
+        <span class="yellow_text">Backend:</span> Python, C#, C++ <br>
         <span class="yellow_text">Mobil fejlesztés:</span> Flutter, React <br>
         Szivesen dolgoznék mobil és asztali alkalmazásokon. <br>
-        Imádok sakkozni és az olyan videojátékokat, ahol többet kell használnom az agyamat, de nem <br>
-        vetek meg egy jó könyvet egy pohár whiskyvel a hét végén.<br>
+        Imádok sakkozni és az olyan videojátékokat, ahol többet kell használnom az agyamat, de szivesen <br>
+        veszek a kezembe egy jó könyvet a nap végén.<br>
         `;
         document.getElementById("reach").innerHTML = "Ahol megtalálsz:";
         document.getElementById("reach_links").innerHTML = 
